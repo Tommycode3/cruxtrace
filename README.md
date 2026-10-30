@@ -291,8 +291,6 @@ signals, no strap slip, and gestures at rest are i.i.d. Real sessions will be me
   need a pose model (e.g. MediaPipe), which goes against this repo's "light" constraint. It is
   left as future work.
 
-## Why I built this
-
 <!-- TODO(Tommaso): dictate 3-4 lines in your own words -->
 
 ## Development
