@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "climbtrack: climbing session tracking from a wrist IMU"
+abstract: "Climb/rest segmentation (sticky Gaussian HMM), time-on-wall and movement-smoothness metrics (LDLJ-A, SPARC) from wrist accelerometry. Validated on synthetic data only."
+authors:
+  - family-names: Maggiolo
+    given-names: Tommaso
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+keywords: [climbing, imu, accelerometer, hidden-markov-model, movement-smoothness, wearables]
+references:
+  - type: article
+    title: "On the analysis of movement smoothness"
+    authors: [{family-names: Balasubramanian, given-names: Sivakumar}, {family-names: Melendez-Calderon, given-names: Alejandro}, {family-names: Roby-Brami, given-names: Agnes}, {family-names: Burdet, given-names: Etienne}]
+    journal: "Journal of NeuroEngineering and Rehabilitation"
+    year: 2015
+    doi: 10.1186/s12984-015-0090-9
+  - type: article
+    title: "Estimating Movement Smoothness From Inertial Measurement Units"
+    authors: [{family-names: Melendez-Calderon, given-names: Alejandro}, {family-names: Shirota, given-names: Camila}, {family-names: Balasubramanian, given-names: Sivakumar}]
+    journal: "Frontiers in Bioengineering and Biotechnology"
+    year: 2021
+    doi: 10.3389/fbioe.2020.558771
